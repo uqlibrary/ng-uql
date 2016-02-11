@@ -57,6 +57,10 @@ md-toolbar.md-default-theme {
   background-color: black;
 }
 
+.md-dialog-container {
+  z-index: 1002;
+}
+
 /**
  *  Do not remove the comment below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
