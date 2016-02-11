@@ -5,7 +5,7 @@ describe('The main view', function () {
 
   beforeEach(function () {
     browser.get('/index.html');
-    page = require('./main.po');
+    page = require('./example.po');
   });
 
   it('should include an awesome greeting', function() {
