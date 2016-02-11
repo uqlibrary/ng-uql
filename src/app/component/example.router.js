@@ -14,7 +14,7 @@
     $stateProvider
         .state('home', {
           url: '/',
-          templateUrl: 'app/components/uql.example/partials/example.html',
+          templateUrl: 'app/partials/example.html',
           controller: 'ExampleController',
           controllerAs: 'ctrl'
         });
