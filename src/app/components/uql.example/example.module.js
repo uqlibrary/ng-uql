@@ -6,12 +6,13 @@
 
   angular
       .module('uql.example', [
-        'ngCookies',
-        'ngSanitize',
-        'ngMessages',
+        'ngAnimate',
         'ngAria',
+        'ngCookies',
+        'ngMessages',
+        'ngSanitize',
+        'toastr',
         'ui.router',
-        'ngMaterial',
-        'toastr']);
-
+        'ngMaterial'
+      ]);
 })();

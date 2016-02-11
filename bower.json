@@ -11,8 +11,7 @@
     "angular-mocks": "~1.4",
     "angular-sanitize": "~1.4",
     "angular-toastr": "~1",
-    "angular-ui-router": "~0.2",
-    "moment": "~2.10"
+    "angular-ui-router": "~0.2"
   },
   "resolutions": {
     "angular": "~1.4"
