@@ -6,16 +6,16 @@
   'use strict';
 
   angular
-      .module('uql.main')
-      .config(mainConfig);
+      .module('uql.example')
+      .config(ExampleConfig);
 
   /** @ngInject */
-  function mainConfig($stateProvider, $urlRouterProvider) {
+  function ExampleConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('home', {
           url: '/',
-          templateUrl: 'app/controllers/main/main.html',
-          controller: 'MainController',
+          templateUrl: 'app/components/uql.example/example.html',
+          controller: 'ExampleController',
           controllerAs: 'ctrl'
         });
 

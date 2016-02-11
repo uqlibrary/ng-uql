@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('uql', ['uql.main']);
+    .module('uql', ['uql.example']);
 
 })();

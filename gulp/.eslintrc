@@ -1,4 +1,7 @@
 {
+  "rules": {
+    "no-service-method": 0
+  },
   "env": {
     "node": true
   }

@@ -5,8 +5,7 @@
   'use strict';
 
   angular
-      .module('uql.main', [
-        'uql.main',
+      .module('uql.example', [
         'ngCookies',
         'ngSanitize',
         'ngMessages',

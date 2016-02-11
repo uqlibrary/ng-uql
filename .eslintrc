@@ -1,6 +1,9 @@
 {
   "extends": "eslint:recommended",
   "plugins": ["angular"],
+  "rules": {
+    "no-service-method": 0
+  },
   "env": {
     "browser": true,
     "jasmine": true

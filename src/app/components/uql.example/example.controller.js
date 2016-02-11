@@ -2,11 +2,11 @@
   'use strict';
 
   angular
-    .module('uql.main')
-    .controller('MainController', MainController);
+    .module('uql.example')
+    .controller('ExampleController', ExampleController);
 
   /** @ngInject */
-  function MainController($timeout, toastr) {
+  function ExampleController($timeout, toastr) {
     var vm = this;
 
     vm.awesomeThings = [];

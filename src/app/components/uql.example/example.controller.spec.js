@@ -6,10 +6,10 @@
     var $timeout;
     var toastr;
 
-    beforeEach(module('uql.main'));
+    beforeEach(module('uql.example'));
     beforeEach(inject(function(_$controller_, _$timeout_, _toastr_) {
       spyOn(_toastr_, 'info').and.callThrough();
-      vm = _$controller_('MainController');
+      vm = _$controller_('ExampleController');
       $timeout = _$timeout_;
       toastr = _toastr_;
     }));
