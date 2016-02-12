@@ -5,7 +5,7 @@
     var vm;
     var toastr;
 
-    beforeEach(module('uql.example'));
+    beforeEach(module('uql'));
     beforeEach(inject(function(_$controller_, _toastr_) {
       spyOn(_toastr_, 'info').and.callThrough();
       vm = _$controller_('ExampleController');

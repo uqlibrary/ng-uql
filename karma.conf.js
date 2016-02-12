@@ -4,6 +4,7 @@ var path = require('path');
 var conf = require('./gulp/conf');
 
 var _ = require('lodash');
+var jasmine = require('gulp-jasmine');
 var wiredep = require('wiredep');
 
 var pathSrcHtml = [

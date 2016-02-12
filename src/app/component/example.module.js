@@ -13,6 +13,7 @@
         'ngSanitize',
         'toastr',
         'ui.router',
-        'ngMaterial'
+        'ngMaterial',
+        'angularMoment'
       ]);
 })();

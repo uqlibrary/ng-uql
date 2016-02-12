@@ -1,7 +1,9 @@
 {
   "name": "uql",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-jasmine": "^2.2.1"
+  },
   "scripts": {
     "test": "gulp test"
   },

@@ -6,9 +6,9 @@
     .controller('ExampleController', ExampleController);
 
   /** @ngInject */
-  function ExampleController($timeout, toastr) {
+  function ExampleController($timeout, toastr, moment) {
     var vm = this;
-    vm.creationDate = + new Date;
+    vm.creationDate = moment().valueOf();
 
     vm.showToastr = function() {
       toastr.info('Really? Is that it?');
