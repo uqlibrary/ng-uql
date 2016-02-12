@@ -21,6 +21,16 @@ Gulp Test
 Gulp Build  
 ```
 
+Test Samples:  
+```
+Protractor:  
+e2e/example.po.js  
+e2e/example.spec.js  
+  
+Gulp Test / Karma:
+src/app/example.controller.spec.js
+```  
+
 Library:  
   
 | Package  | Version |
