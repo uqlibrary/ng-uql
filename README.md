@@ -1,6 +1,8 @@
 # uql-hp
 UQ Library Home Page
 
+Make sure that "var mock = true;" is defined above your module.
+
 ## Installation
 
 Clone repository:  
