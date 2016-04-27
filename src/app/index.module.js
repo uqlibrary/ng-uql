@@ -2,6 +2,15 @@
   'use strict';
 
   angular
-    .module('uql', ['uql.example']);
+    .module('uql', [
+      'ngAnimate',
+      'ngAria',
+      'ngCookies',
+      'ngMessages',
+      'ngSanitize',
+      'toastr',
+      'ui.router',
+      'ngMaterial'
+    ]);
 
 })();

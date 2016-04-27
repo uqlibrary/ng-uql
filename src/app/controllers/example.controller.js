@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('uql.example')
+    .module('uql')
     .controller('ExampleController', ExampleController);
 
   /** @ngInject */

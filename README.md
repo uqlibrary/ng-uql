@@ -1,7 +1,8 @@
 # uql-hp
-UQ Library Home Page
+UQ Library AngularJS Repo
 
-Make sure that "var mock = true;" is defined above your module.
+Repository for angularJs development for UQ Library environment.
+It includes polymer components like Header, Megamenu, Connect footer, footer, etc...
 
 ## Installation
 

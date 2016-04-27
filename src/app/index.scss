@@ -38,7 +38,6 @@ html {
 }
 
 uql-mega-menu {
-  margin-top: 100px;
   display: inline-block;
   width: 100%;
 }
@@ -62,6 +61,8 @@ md-toolbar.md-default-theme {
 }
 
 body {
+  height:100%;
+  width:100%;
   background: transparent url("//www.library.uq.edu.au/_/sites/all/themes/uq/images/mylibrary_backgrd_duhig_4.jpg") no-repeat 50% 66px;
 }
 

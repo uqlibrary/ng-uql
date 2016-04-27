@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-      .module('uql.example')
+      .module('uql')
       .config(ExampleConfig);
 
   /** @ngInject */
