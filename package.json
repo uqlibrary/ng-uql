@@ -1,11 +1,14 @@
 {
-  "name": "uql",
+  "name": "ng-uql",
   "version": "0.0.0",
+  "repository": "git@github.com:uqlibrary/ng-uql.git",
+  "license": "MIT",
   "dependencies": {
     "gulp-jasmine": "^4.0.0"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "test:e2e": "gulp protractor"
   },
   "devDependencies": {
     "estraverse": "~4.2.0",
@@ -52,6 +55,7 @@
     "wrench": "~1.5.9"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "npm": "^6.10.2",
+    "node": "^11.10.1"
   }
 }
