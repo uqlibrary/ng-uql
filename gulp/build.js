@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use strict';
 
 var path = require('path');
@@ -63,7 +64,7 @@ gulp.task('html', ['inject', 'partials'], function () {
     .pipe(htmlFilter.restore)
     .pipe(gulp.dest(path.join(conf.paths.dist, '/')))
     .pipe($.size({ title: path.join(conf.paths.dist, '/'), showFiles: true }));
-  });
+});
 
 gulp.task('other', function () {
   var fileFilter = $.filter(function (file) {
