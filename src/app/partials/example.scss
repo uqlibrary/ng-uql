@@ -1,13 +1,15 @@
-body {
-  background: transparent url("//www.library.uq.edu.au/_/sites/all/themes/uq/images/mylibrary_backgrd_duhig_4.jpg") no-repeat 50% 66px;
-}
+// body {
+// background: transparent
+//   url("https://www.library.uq.edu.au/_/sites/all/themes/uq/images/mylibrary_backgrd_duhig_4.jpg")
+//   no-repeat 50% 66px;
+// }
 
 md-content {
-  margin:20px auto;
-  padding:20px;
-  width:100%;
-  max-width:960px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 960px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  background-color:#fff;
+  background-color: #fff;
 }
